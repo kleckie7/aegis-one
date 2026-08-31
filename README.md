@@ -20,6 +20,18 @@ AEGIS ONE is a fully interactive, web-based cybersecurity management suite. It r
 | **Command Center** (`/app`) | Org-wide risk gauge, cross-domain KPIs, a 10-tile domain status grid that re-sorts itself by risk (FLIP animation), global trend chart with drag-to-filter brush, 5×5 risk heatmap, live auto-updating incident feed, top-risks table |
 | **10 domain dashboards** | IoT Security · Information Security · Application Security · GRC · Cloud Security · Vulnerability Management · SOC · Data Security · Network Security · Endpoint Security — each with tailored KPIs, charts, signature widgets, and a searchable/sortable incident explorer with a slide-in detail drawer |
 
+## Screenshots
+
+| Landing | Command Center |
+|---|---|
+| ![Landing hero](docs/screenshots/landing-hero.jpg) | ![Command Center](docs/screenshots/command-center.png) |
+
+| Network Security | SOC Triage Funnel | IoT Fleet Matrix | GRC Compliance |
+|---|---|---|---|
+| ![Network Security](docs/screenshots/network-security.png) | ![SOC](docs/screenshots/soc-funnel.png) | ![IoT](docs/screenshots/iot-fleet-matrix.png) | ![GRC](docs/screenshots/grc-rings.png) |
+
+---
+
 ### The 10 Modules
 
 1. **IoT Security** — 1,284-device fleet matrix, protocol breakdown, firmware patch status
