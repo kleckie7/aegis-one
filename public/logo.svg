@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="aegisGrad" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <!-- outer concentric broken circuit hexagon -->
+  <path d="M32 4 54 16.5v10 M54 33.5v14L32 60 M32 60 10 47.5v-14 M10 26.5v-10L32 4"
+        stroke="url(#aegisGrad)" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="54" cy="30" r="2.2" fill="#22D3EE"/>
+  <circle cx="10" cy="30" r="2.2" fill="#34D399"/>
+  <!-- middle broken circuit hexagon -->
+  <path d="M32 13 47 21.2v7 M47 35.8v7L32 51 M32 51 17 42.8v-7 M17 28.2v-7L32 13"
+        stroke="url(#aegisGrad)" stroke-width="1.9" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="47" cy="31.5" r="1.7" fill="#22D3EE" opacity="0.9"/>
+  <circle cx="17" cy="31.5" r="1.7" fill="#34D399" opacity="0.9"/>
+  <!-- inner broken hexagon -->
+  <path d="M32 21.5 40.5 26v5 M40.5 37v5L32 42.5 M32 42.5 23.5 38v-5 M23.5 26 32 21.5"
+        stroke="url(#aegisGrad)" stroke-width="1.6" stroke-linecap="round" opacity="0.65"/>
+  <!-- inner eye / node -->
+  <circle cx="32" cy="32" r="5.2" stroke="url(#aegisGrad)" stroke-width="1.8"/>
+  <circle cx="32" cy="32" r="2.1" fill="#22D3EE"/>
+  <!-- circuit stubs -->
+  <path d="M32 26.8v-3.3 M37.5 32h3 M26.5 32h-3" stroke="url(#aegisGrad)" stroke-width="1.4" stroke-linecap="round" opacity="0.7"/>
+</svg>
